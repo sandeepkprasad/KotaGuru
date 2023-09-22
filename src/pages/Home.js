@@ -3,6 +3,7 @@ import Carousel from "../components/Carousel";
 import OurCourses from "../components/OurCourses";
 import AboutUs from "../components/AboutUs";
 import WeBelieve from "../components/WeBelieve";
+import HomeGallery from "../components/HomeGallery";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <OurCourses />
       <AboutUs />
       <WeBelieve />
+      <HomeGallery />
     </div>
   );
 };
