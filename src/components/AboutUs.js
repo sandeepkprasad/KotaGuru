@@ -9,8 +9,7 @@ const AboutUs = () => {
       <div
         className="w-full h-full bg-center bg-cover duration-500"
         style={{
-          backgroundImage:
-            'url("https://www.schoolytics.com/hubfs/executive-function-head-image.png")',
+          backgroundImage: 'url("images/bg-image.png")',
         }}
       >
         <div className="w-full h-full bg-black bg-opacity-75 py-5 px-14">

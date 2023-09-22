@@ -4,7 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const Card = ({ data }) => {
   return (
-    <div className="w-1/5 h-[300px] rounded-3xl shadow-2xl space-y-5 transition ease-in-out delay-150 hover:-translate-y-3">
+    <div className="w-1/5 h-[300px] rounded-3xl shadow-2xl border-2 border-slate-900 space-y-5 transition ease-in-out delay-150 hover:-translate-y-3">
       <img src={data.image} alt="..." className="w-full h-2/3 object-contain" />
       <h4 className="text-center font-bold text-lg tracking-wide text-gray-900">
         {data.title}
