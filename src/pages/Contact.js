@@ -57,14 +57,14 @@ const Contact = () => {
               Find Us
             </h4>
             <iframe
-              // eslint-disable-next-line
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62177.91231202048!2d77.545953!3d13.091611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae239fca36d85f%3A0x2491e7d8df223852!2sRCS%20TECHNOLOGY!5e0!3m2!1sen!2sin!4v1695452881039!5m2!1sen!2sin"
               width="400"
               height="200"
+              title="This is a unique title"
               style={{ border: "0" }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               className="rounded-2xl shadow shadow-slate-500"
             ></iframe>
           </div>

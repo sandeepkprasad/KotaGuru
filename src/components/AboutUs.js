@@ -15,7 +15,7 @@ const AboutUs = () => {
         <div className="w-full h-full bg-black bg-opacity-75 py-5 px-14">
           <div className="space-y-14">
             <h3 className="font-bold text-white/90 text-4xl tracking-wide">
-              We Can Offer |
+              We Offer |
             </h3>
             <div className="w-1/2 space-y-10">
               <div className="flex items-center space-x-10">
