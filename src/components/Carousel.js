@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useContext } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
+import kotaContext from "../context/kotaContext";
 
 const slides = [
   {
@@ -19,6 +20,7 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const timeout = useRef(null);
   const length = slides.length;
+  const { handleModal } = useContext(kotaContext);
 
   const [header] = useTypewriter({
     words: [
@@ -80,12 +82,14 @@ const Carousel = () => {
               >
                 View Courses
               </Link>
-              <Link
-                to="/enquiry"
-                className="font-bold text-black bg-red-600 px-4 py-2 rounded hover:bg-red-700 duration-300 tracking-wide"
+              <button
+                className="font-bold text-black bg-red-600 px-4 py-1.5 rounded hover:bg-red-700 duration-300 tracking-wide"
+                onClick={() => {
+                  handleModal(true);
+                }}
               >
                 Enquiry Now
-              </Link>
+              </button>
             </div>
           </div>
         </div>
