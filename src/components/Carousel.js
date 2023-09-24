@@ -6,13 +6,16 @@ import kotaContext from "../context/kotaContext";
 
 const slides = [
   {
-    url: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80",
+    url: "/images/school-students.jpg",
   },
   {
-    url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
+    url: "/images/inter-students.webp",
   },
   {
-    url: "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80",
+    url: "/images/iit-image.jpg",
+  },
+  {
+    url: "/images/neet-image.png",
   },
 ];
 
@@ -116,11 +119,10 @@ const Carousel = () => {
         <div className="w-1/4 bg-red-400 rounded-full shadow-md shadow-black flex justify-center items-center">
           <div className="text-center space-y-3">
             <h3 className="font-bold text-slate-900 text-3xl tracking-wider">
-              Best Choice for E-Learning
+              Best Choice for Online Learning
             </h3>
             <p className="font-bold tracking-wider text-base text-slate-700">
-              You can learn the E-courses with the best tools available at
-              KotaGuru.
+              You can learn online with the best tools available at KotaGuru.
             </p>
           </div>
         </div>

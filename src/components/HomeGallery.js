@@ -27,7 +27,7 @@ const data = [
 const HomeGallery = () => {
   return (
     <div className="w-full p-14 space-y-14 bg-sky-400/25">
-      <Heading heading={"Our Special Memories"} />
+      <Heading heading={"Special Memories"} />
       <div className="w-full grid grid-cols-1 md:grid-cols-5 gap-8">
         {data.map((item) => {
           return (

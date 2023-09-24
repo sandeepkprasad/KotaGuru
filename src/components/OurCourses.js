@@ -19,7 +19,7 @@ const courses = [
   },
   {
     image: courseIIT,
-    title: "JEE Main & Advance Course",
+    title: "JEE Mains & Advance Course",
     route: "/jee-course",
   },
   { image: courseNEET, title: "NEET Course", route: "/neet-course" },
