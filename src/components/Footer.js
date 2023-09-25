@@ -4,10 +4,10 @@ import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[485px] pt-14">
+    <div className="w-full h-[885px] md:h-[485px] pt-14">
       <div className="w-full h-full bg-gray-900 pt-14">
-        <div className="w-full h-2/3 bg-amber-400 flex justify-around py-9 mb-16">
-          <div className="w-1/4 space-y-2">
+        <div className="w-full h-2/3 bg-amber-400 md:flex justify-around py-9 mb-8 md:mb-16 space-y-10 md:space-y-0 px-3 md:px-0">
+          <div className="w-full md:w-1/4 space-y-2">
             <h3 className="font-bold text-2xl text-slate-900 tracking-wide">
               Contact
             </h3>
@@ -22,7 +22,7 @@ const Footer = () => {
               Super Market Vidyaranyapura Bengaluru-560097
             </h3>
           </div>
-          <div className="w-1/4 space-y-2">
+          <div className="w-full md:w-1/4 space-y-2">
             <h3 className="font-bold text-2xl text-slate-900 tracking-wide">
               Useful Links
             </h3>
@@ -36,7 +36,7 @@ const Footer = () => {
               <Link to="/gallery">Gallery</Link>
             </h3>
           </div>
-          <div className="w-1/4 space-y-2">
+          <div className="w-full md:w-1/4 space-y-2">
             <h3 className="font-bold text-2xl text-slate-900 tracking-wide">
               Support
             </h3>
@@ -45,8 +45,8 @@ const Footer = () => {
             </h3>
           </div>
         </div>
-        <div className="w-full flex justify-around">
-          <div className="w-1/4">
+        <div className="w-full md:flex justify-around space-y-10 md:space-y-0">
+          <div className="w-full md:w-1/4 text-center md:text-start">
             <Link
               to="/"
               className="font-bold text-4xl text-white tracking-wider"
@@ -54,7 +54,7 @@ const Footer = () => {
               Kota<span className="text-amber-400">Guru</span>
             </Link>
           </div>
-          <div className="w-1/4 text-center space-y-3">
+          <div className="w-full md:w-1/4 text-center space-y-3">
             <p className="text-sm tracking-wide text-white">
               Copyright @ 2023 by KotaGuru
             </p>
@@ -62,7 +62,7 @@ const Footer = () => {
               Developed by Sandeep Kumar
             </p>
           </div>
-          <div className="w-1/4 flex justify-end text-4xl text-white space-x-10">
+          <div className="w-full md:w-1/4 flex justify-center md:justify-end text-4xl text-white space-x-10">
             <Link
               to="/"
               className="hover:scale-125 hover:text-blue-700 duration-300"

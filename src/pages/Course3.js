@@ -16,7 +16,7 @@ const Course1 = () => {
             backgroundImage: 'url("images/bg-image.png")',
           }}
         >
-          <div className="w-full h-full bg-black bg-opacity-75 py-5 px-14 flex items-center">
+          <div className="w-full h-full bg-black bg-opacity-75 py-5 px-5 md:px-14 flex items-center">
             <div className="space-y-14">
               <Link
                 to="/"
@@ -31,17 +31,17 @@ const Course1 = () => {
           </div>
         </div>
       </div>
-      <div className="w-full p-14 space-y-10">
+      <div className="w-full px-5 md:px-14 py-14 space-y-10">
         <Heading heading={"JEE Mains & Advance Course"} />
-        <div className="w-full flex justify-around pt-10">
-          <div className="w-2/5 space-y-5">
+        <div className="w-full md:flex justify-around pt-10 space-y-14 md:space-y-0">
+          <div className="w-full md:w-2/5 space-y-5">
             <img
               src="images/iit-image.jpg"
               alt="..."
               className="rounded-2xl w-full h-[300px] opacity-90"
             />
           </div>
-          <div className="w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
+          <div className="w-full md:w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
             <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
               About Course
             </h4>
@@ -56,8 +56,8 @@ const Course1 = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex justify-between">
-          <div className="w-2/5 space-y-5">
+        <div className="w-full md:flex justify-between space-y-14 md:space-y-0">
+          <div className="w-full md:w-2/5 space-y-5">
             <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
               Overview
             </h4>
@@ -77,7 +77,7 @@ const Course1 = () => {
               Advanced and class <b>12th Board</b> exams.
             </p>
           </div>
-          <div className="w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
+          <div className="w-full md:w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
             <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
               Eligibility Criteria
             </h4>

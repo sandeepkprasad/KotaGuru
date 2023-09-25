@@ -79,7 +79,7 @@ const Gallery = () => {
             backgroundImage: 'url("images/bg-image.png")',
           }}
         >
-          <div className="w-full h-full bg-black bg-opacity-75 py-5 px-14 flex items-center">
+          <div className="w-full h-full bg-black bg-opacity-75 py-5 px-5 md:px-14 flex items-center">
             <div className="space-y-14">
               <Link
                 to="/"
@@ -94,9 +94,9 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="w-full p-14 space-y-10">
-        <Heading heading={"Some Special Memories"} />
-        <div className="w-full grid grid-cols-4 gap-8">
+      <div className="w-full px-5 md:px-14 py-14 space-y-10">
+        <Heading heading={"Our Memories"} />
+        <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-8">
           {data.map((item) => {
             return (
               <div

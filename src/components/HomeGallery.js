@@ -26,23 +26,42 @@ const data = [
 
 const HomeGallery = () => {
   return (
-    <div className="w-full p-14 space-y-14 bg-sky-400/25">
-      <Heading heading={"Special Memories"} />
-      <div className="w-full grid grid-cols-1 md:grid-cols-5 gap-8">
-        {data.map((item) => {
-          return (
-            <img
-              width={200}
-              height={200}
-              src={item.img}
-              alt="..."
-              key={item.id}
-              className="rounded-3xl hover:scale-110 duration-300"
-            />
-          );
-        })}
+    <>
+      <div className="w-full p-14 space-y-14 bg-sky-400/25 hidden md:block">
+        <Heading heading={"Some Memories"} />
+        <div className="w-full grid grid-cols-5 gap-8">
+          {data.map((item) => {
+            return (
+              <img
+                width={200}
+                height={200}
+                src={item.img}
+                alt="..."
+                key={item.id}
+                className="rounded-3xl hover:scale-110 duration-300"
+              />
+            );
+          })}
+        </div>
       </div>
-    </div>
+      <div className="w-full px-3 py-14 space-y-14 bg-sky-400/25 md:hidden text-center">
+        <Heading heading={"Some Memories"} />
+        <div className="w-full flex overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide space-x-5">
+          {data.map((item) => {
+            return (
+              <img
+                width={120}
+                height={120}
+                src={item.img}
+                alt="..."
+                key={item.id}
+                className="rounded-xl hover:scale-110 duration-300"
+              />
+            );
+          })}
+        </div>
+      </div>
+    </>
   );
 };
 

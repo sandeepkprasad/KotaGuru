@@ -4,7 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const Card = ({ data }) => {
   return (
-    <div className="w-1/5 h-[300px] rounded-3xl shadow-2xl border-2 border-slate-900 transition ease-in-out delay-150 hover:-translate-y-3">
+    <div className="w-full md:w-1/5 h-[300px] rounded-3xl shadow-2xl border-2 border-slate-900 transition ease-in-out delay-150 hover:-translate-y-3">
       <Link to={data.route} className="space-y-5">
         <img
           src={data.image}

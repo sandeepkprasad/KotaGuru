@@ -5,19 +5,19 @@ import { TbRulerMeasure } from "react-icons/tb";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-[1400px] h-[627px] w-full m-auto relative group py-14 z-40">
+    <div className="max-w-[1400px] h-[727px] md:h-[627px] w-full m-auto relative group py-14 z-40">
       <div
         className="w-full h-full bg-center bg-cover duration-500"
         style={{
           backgroundImage: 'url("images/bg-image.png")',
         }}
       >
-        <div className="w-full h-full bg-black bg-opacity-75 py-5 px-14">
-          <div className="space-y-14">
+        <div className="w-full h-full bg-black bg-opacity-75 py-5 px-3 md:px-14">
+          <div className="space-y-10 md:space-y-14">
             <h3 className="font-bold text-white/90 text-4xl tracking-wide">
               We Offer |
             </h3>
-            <div className="w-1/2 space-y-10">
+            <div className="w-full md:w-1/2 space-y-10">
               <div className="flex items-center space-x-10">
                 <PiGraduationCapBold className="font-bold text-8xl text-white" />
                 <div className="space-y-3 text-white">

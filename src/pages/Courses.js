@@ -40,7 +40,7 @@ const Courses = () => {
             backgroundImage: 'url("images/bg-image.png")',
           }}
         >
-          <div className="w-full h-full bg-black bg-opacity-75 py-5 px-14 flex items-center">
+          <div className="w-full h-full bg-black bg-opacity-75 py-5 px-5 md:px-14 flex items-center">
             <div className="space-y-14">
               <Link
                 to="/"
@@ -56,8 +56,8 @@ const Courses = () => {
         </div>
       </div>
       <div className="w-full p-14 space-y-10">
-        <Heading heading={"Courses We Offer"} />
-        <div className="w-full flex justify-between">
+        <Heading heading={"Courses Offered"} />
+        <div className="w-full md:flex justify-between space-y-10 md:space-y-0">
           {courses.map((course, index) => {
             return <Card data={course} key={index} />;
           })}

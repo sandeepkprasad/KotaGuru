@@ -27,10 +27,10 @@ const courses = [
 
 const OurCourses = () => {
   return (
-    <div className="w-full bg-white pt-[320px] pb-14 px-14">
+    <div className="w-full bg-white pt-[490px] md:pt-[320px] pb-14 px-14">
       <div className="space-y-14">
         <Heading heading={"Popular Courses"} />
-        <div className="w-full flex justify-around">
+        <div className="w-full md:flex justify-around space-y-10 md:space-y-0">
           {courses.map((course, index) => {
             return <Card data={course} key={index} />;
           })}
