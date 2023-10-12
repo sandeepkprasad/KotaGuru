@@ -6,10 +6,10 @@ import kotaContext from "../context/kotaContext";
 
 const slides = [
   {
-    url: "/images/school-students.jpg",
+    url: "/images/kotaguru-6.jpg",
   },
   {
-    url: "/images/inter-students.webp",
+    url: "/images/kotaguru-2.jpg",
   },
   {
     url: "/images/iit-image.jpg",
@@ -27,7 +27,7 @@ const Carousel = () => {
 
   const [header] = useTypewriter({
     words: [
-      "Best Coaching Institute in Kota",
+      "Best Coaching Institute in Bangalore",
       "Best Coaching For IIT & NEET Classes",
     ],
     loop: 0,
@@ -109,17 +109,17 @@ const Carousel = () => {
         <div className="w-full md:w-1/4 bg-blue-400 rounded-full shadow-md shadow-black flex justify-center items-center py-5 md:py-0 px-3 md:px-0">
           <div className="text-center space-y-3">
             <h3 className="font-bold text-slate-900 text-2xl md:text-3xl tracking-wider">
-              Best Coaching in Kota
+              Best NEET & JEE Coaching
             </h3>
             <p className="font-bold tracking-wider text-base text-slate-700">
-              Well-known Coaching Institute for JEE advance and NEET in Kota.
+              Well-known Institute for NEET & JEE result in Karnataka.
             </p>
           </div>
         </div>
         <div className="w-full md:w-1/4 bg-red-400 rounded-full shadow-md shadow-black flex justify-center items-center py-5 md:py-0 px-3 md:px-0">
           <div className="text-center space-y-3">
             <h3 className="font-bold text-slate-900 text-2xl md:text-3xl tracking-wider">
-              Best Choice for Online Learning
+              Best Place for Online Learning
             </h3>
             <p className="font-bold tracking-wider text-base text-slate-700">
               You can learn online with the best tools available at KotaGuru.
@@ -129,10 +129,10 @@ const Carousel = () => {
         <div className="w-full md:w-1/4 bg-green-400 rounded-full shadow-md shadow-black flex justify-center items-center py-5 md:py-0 px-3 md:px-0">
           <div className="text-center space-y-3">
             <h3 className="font-bold text-slate-900 text-2xl md:text-3xl tracking-wider">
-              School Integrated Programs
+              Integrated PU College Programs
             </h3>
             <p className="font-bold tracking-wider text-base text-slate-700">
-              There are no better school integration programs than the ones
+              There are no better PU College integration programs than the ones
               offered by us.
             </p>
           </div>

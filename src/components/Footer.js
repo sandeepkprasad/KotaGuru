@@ -15,7 +15,7 @@ const Footer = () => {
               +91 12345 67890
             </h3>
             <h3 className="font-bold text-base text-slate-900 tracking-wide">
-              contact@xyz.com
+              contact@kotaguru.com
             </h3>
             <h3 className="font-bold text-base text-slate-900 tracking-wide">
               No.26, 2nd Cross, Amba Bhawani Road, Sai Nagar-1 Behind hamson
@@ -54,12 +54,9 @@ const Footer = () => {
               Kota<span className="text-amber-400">Guru</span>
             </Link>
           </div>
-          <div className="w-full md:w-1/4 text-center space-y-3">
+          <div className="w-full md:w-fit text-center">
             <p className="text-sm tracking-wide text-white">
-              Copyright @ 2023 by KotaGuru
-            </p>
-            <p className="text-sm tracking-wide text-white">
-              Developed by Sandeep Kumar
+              Copyright @ 2023 by KotaGuru | Developed by Teciex Solutions
             </p>
           </div>
           <div className="w-full md:w-1/4 flex justify-center md:justify-end text-4xl text-white space-x-10">

@@ -76,7 +76,7 @@ const Gallery = () => {
         <div
           className="w-full h-full bg-center bg-cover duration-500"
           style={{
-            backgroundImage: 'url("images/bg-image.png")',
+            backgroundImage: 'url("images/bg-image.jpg")',
           }}
         >
           <div className="w-full h-full bg-black bg-opacity-75 py-5 px-5 md:px-14 flex items-center">

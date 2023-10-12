@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
       </div>
       {showNav ? (
-        <div className="w-full h-[350px] bg-amber-400 fixed top-20 z-50">
+        <div className="w-full h-[350px] bg-amber-400 fixed top-[74px] z-50">
           <div className="w-full h-full font-bold tracking-widest text-xl flex justify-center items-center">
             <ul className="space-y-10 text-white text-center">
               <li className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">

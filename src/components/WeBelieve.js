@@ -8,8 +8,8 @@ const WeBelieve = () => {
         <Heading heading={"We Believe That"} />
         <div className="md:flex justify-between space-y-10 md:space-y-0 md:space-x-10">
           <h4 className="w-full md:w-1/2 h-[100px] shadow-lg shadow-slate-400 rounded-3xl font-bold text-xl md:text-2xl p-5 tracking-wide text-white bg-lime-400 ">
-            Quality education must be accessible and affordable to every
-            aspirants.
+            Quality education must be accessible and affordable to every NEET &
+            JEE aspirant.
           </h4>
           <h4 className="w-full md:w-1/2 h-[100px] shadow-lg shadow-slate-400 rounded-3xl font-bold text-xl md:text-2xl p-5 tracking-wide text-white bg-cyan-400">
             Imparting education is part of social responsibility.

@@ -7,10 +7,11 @@ import courseNEET from "../assests/neet-students.png";
 import Card from "../Helpers/Card";
 
 const courses = [
+  { image: courseNEET, title: "NEET Course", route: "/neet-course" },
   {
-    image: course10th,
-    title: "Class 8th, 9th, 10th Course",
-    route: "/school-course",
+    image: courseIIT,
+    title: "JEE Main & Advance Course",
+    route: "/jee-course",
   },
   {
     image: course12th,
@@ -18,11 +19,10 @@ const courses = [
     route: "/inter-course",
   },
   {
-    image: courseIIT,
-    title: "JEE Mains & Advance Course",
-    route: "/jee-course",
+    image: course10th,
+    title: "Class 8th, 9th, 10th Course",
+    route: "/school-course",
   },
-  { image: courseNEET, title: "NEET Course", route: "/neet-course" },
 ];
 
 const OurCourses = () => {
