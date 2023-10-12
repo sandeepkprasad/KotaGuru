@@ -5,7 +5,7 @@ import { TbRulerMeasure } from "react-icons/tb";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-[1400px] h-[817px] md:h-[627px] w-full m-auto relative group py-14 z-40">
+    <div className="w-full m-auto relative group py-14 z-40">
       <div
         className="w-full h-full bg-center bg-cover duration-500"
         style={{

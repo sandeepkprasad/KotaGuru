@@ -12,7 +12,7 @@ const Footer = () => {
               Contact
             </h3>
             <h3 className="font-bold text-base text-slate-900 tracking-wide">
-              +91 12345 67890
+              +91 99805 94868
             </h3>
             <h3 className="font-bold text-base text-slate-900 tracking-wide">
               contact@kotaguru.com

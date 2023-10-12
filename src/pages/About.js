@@ -76,14 +76,18 @@ const About = () => {
         </div>
         <div className="w-full md:flex justify-around items-center pt-10 space-y-14 md:space-y-0">
           <div className="w-full md:w-2/5 space-y-5">
-            <img src="images/bg-image.png" alt="..." className="rounded-2xl" />
-            <h4 className="font-medium text-xl text-slate-700 tracking-wider">
-              Mr. XYZ
+            <img
+              src="images/kotaguru-satish.png"
+              alt="..."
+              className="rounded-2xl w-[420px] h-[375px]"
+            />
+            <h4 className="font-bold text-xl text-slate-700 tracking-wider">
+              Satish Sir
             </h4>
           </div>
           <div className="w-full md:w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
             <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
-              Our Director
+              Director Advisor
             </h4>
             <p className="font-medium text-base text-slate-700 tracking-wider">
               It's our immense pleasure to introduce KotaGuru as a leader in
@@ -105,6 +109,97 @@ const About = () => {
               benchmark setter in the past decade and with our innovation
               approaches and consistent efforts we will continue to define the
               future of quality education.
+            </p>
+          </div>
+        </div>
+        <div className="w-full md:flex justify-around items-center pt-10 space-y-14 md:space-y-0">
+          <div className="w-full md:w-2/5 space-y-5 order-last">
+            <img
+              src="images/kotaguru-abhishek.jpg"
+              alt="..."
+              className="rounded-2xl w-[420px] h-[375px]"
+            />
+            <h4 className="font-bold text-xl text-slate-700 tracking-wider">
+              Abhishek Pandey
+            </h4>
+          </div>
+          <div className="w-full md:w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
+            <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
+              Academic Director
+            </h4>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              I want to share our commitment to education and our role as a
+              responsible corporate citizen.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              At KotaGuru, we believe that education is the cornerstone of
+              progress. It not only empowers individuals but also strengthens
+              communities and drives economic growth. We are proud to support
+              education initiatives that make a positive impact in the regions
+              where we operate.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              We partner with local schools, colleges, and non-profit
+              organizations to provide scholarships, mentorship programs, and
+              resources to aspiring students.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              Thank you for being a part of our journey and for your continued
+              support. Together, we can make a meaningful difference.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              Warm regards,
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              Abhishek Pandey
+            </p>
+          </div>
+        </div>
+        <div className="w-full md:flex justify-around items-center pt-10 space-y-14 md:space-y-0">
+          <div className="w-full md:w-2/5 space-y-5">
+            <img
+              src="images/kotaguru-nitin.jpg"
+              alt="..."
+              className="rounded-2xl w-[420px] h-[375px]"
+            />
+            <h4 className="font-bold text-xl text-slate-700 tracking-wider">
+              Nitin Mukesh
+            </h4>
+          </div>
+          <div className="w-full md:w-2/5 space-y-5 font-medium text-base text-slate-700 tracking-wider">
+            <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
+              Managing Director
+            </h4>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              As the Managing Director of kota guru I am continually inspired by
+              the dedication and passion of our team, the resilience of our
+              students, and the transformative power of online/ offline
+              learning. we have not only adapted but thrived, providing quality
+              education to countless individuals around the globe .We nurtured
+              the future DOCTORS AND SCIENTISTS BY providing quality NEET/JEE
+              training by expert coaches.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              I want to express my gratitude to all our educators, who pour
+              their expertise and passion into every lesson. Your dedication is
+              what makes our platform so valuable. And to our students.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              As we look ahead, we have exciting plans for the future. We aim to
+              reach even more learners, collaborate with more educators, and
+              offer a wider array of courses to meet the evolving needs of our
+              community. Your feedback and ideas are invaluable in shaping our
+              path forward, so please continue to share your thoughts with us.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              Thank you for being a part of our journey and for your continued
+              support. Together, we can make a meaningful difference.
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              Warm regards,
+            </p>
+            <p className="font-medium text-base text-slate-700 tracking-wider">
+              Nitin Mukesh
             </p>
           </div>
         </div>

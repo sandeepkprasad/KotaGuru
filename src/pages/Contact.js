@@ -39,11 +39,17 @@ const Contact = () => {
               <h4 className="font-medium text-2xl text-slate-700 tracking-wider">
                 Connect With Us
               </h4>
-              <p className="font-medium text-base text-slate-700 tracking-wider">
-                +91 12345 67890
+              <p className="font-bold text-xl text-slate-700 tracking-wider">
+                <Link to="tel:+91 99805 94868">
+                  +91 99805 94868{" "}
+                  <span className="font-medium">(Click to Call Now)</span>
+                </Link>
               </p>
-              <p className="font-medium text-base text-slate-700 tracking-wider">
-                contact@kotaguru.in
+              <p className="font-bold text-xl text-slate-700 tracking-wider">
+                <Link to="mailto:contact@kotaguru.com">
+                  contact@kotaguru.com{" "}
+                  <span className="font-medium">(Click to Send Email)</span>
+                </Link>
               </p>
             </div>
             <div className="w-full space-y-3">
@@ -61,7 +67,7 @@ const Contact = () => {
               Find Us
             </h4>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62177.91231202048!2d77.545953!3d13.091611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae239fca36d85f%3A0x2491e7d8df223852!2sRCS%20TECHNOLOGY!5e0!3m2!1sen!2sin!4v1695452881039!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31087.86708528311!2d77.54682800000002!3d13.100239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae228eb52a368f%3A0x711f298a19b466f8!2sAmba%20Bhavani%20Temple%20Rd%2C%20Bengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1697103727994!5m2!1sen!2sus"
               title="This is a unique title"
               style={{ border: "0" }}
               allowFullScreen=""

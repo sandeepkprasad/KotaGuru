@@ -53,14 +53,14 @@ const HomeGallery = () => {
       <div className="w-full px-3 py-14 space-y-14 bg-sky-400/25 md:hidden text-center">
         <Heading heading={"Gallery"} />
         <div className="w-full flex overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide space-x-5">
-          {data.map((item) => {
+          {data.slice(0, 3).map((item) => {
             return (
               <Link to="/gallery">
                 <img
                   src={item.img}
                   alt="..."
                   key={item.id}
-                  className="w-[320px] h-[220px] rounded-xl hover:scale-105 duration-300"
+                  className="w-[220px] h-[120px] rounded-xl hover:scale-105 duration-300"
                 />
               </Link>
             );
