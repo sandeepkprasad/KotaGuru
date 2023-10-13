@@ -56,12 +56,18 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-fit text-center">
             <p className="text-sm tracking-wide text-white">
-              Copyright @ 2023 by KotaGuru | Developed by Teciex Solutions
+              Copyright @ 2023 by KotaGuru | Developed by{" "}
+              <span className="underline">
+                <Link to="https://teciexsolutions.com/" target="_blank">
+                  Teciex Solutions
+                </Link>
+              </span>
             </p>
           </div>
           <div className="w-full md:w-1/4 flex justify-center md:justify-end text-4xl text-white space-x-10">
             <Link
-              to="/"
+              to="https://www.facebook.com/Kotagurubangalore"
+              target="_blank"
               className="hover:scale-125 hover:text-blue-700 duration-300"
             >
               <FaFacebookSquare />
